@@ -40,7 +40,7 @@ The roles invoke the AWS modules in Ansible to carry out their respective tasks.
 ## Running the playbook
 Open the terminal and change the path to where you have downloaded the folder.
 Then run the following command in the terminal:
-> $ anisble_playbook 3tier_arch.yml
+> $ ansible-playbook 3tier_arch.yml
 
 ## Requirements
 You must have AWS CLI, latest Python module and boto3 installed before running this playbook else it will result in an error saying you need one of these installed.
